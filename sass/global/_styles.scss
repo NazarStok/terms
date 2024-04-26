@@ -1,0 +1,25 @@
+#wrapper,
+main,
+#content,
+#sidebar,
+aside,
+section{
+	@include box;
+}
+.layout {
+	@include box;
+	width:1070px;
+	margin:0 auto;
+}
+h1{
+	//styleName: H_1;
+		font-family: Montserrat;
+		font-size: 56px;
+		font-weight: 700;
+		line-height: 68.26px;
+		color: #fff;
+		@media(max-width: 800px) {
+            font-size: 32px;
+			text-align: center;
+         }
+}
